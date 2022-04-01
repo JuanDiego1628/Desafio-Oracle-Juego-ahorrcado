@@ -4,25 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    
     <title>Ahorcado</title>
     <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="normalice.css">
+    
   </head>
-  <body>
-    <div style="text-align:center; margin: 50px 0px;">
-      <h1 class="titulo">Juego Del Ahorcado</h1>
-      <div>
-        <a  href="juego.html"  class="btn"  id="iniciar-juego">INICIAR JUEGO</div></a>
-      </div>
-     
-    </div>
-    <div style="text-align:center">
-      <input class="text-input" type="text" id="input-nueva-palabra" placeholder="Escriba una nueva palabra">
-      <button class="btn" id="nueva-palabra">AGREGAR PALABRA</button> 
-    </div>
-    <div style="text-align:center;">
-      <canvas id="ahorcado" height="800px" width="1200px"></canvas>
-    </div>
-    <script type="text/javascript" src="canvas.js"></script>
-    <script type="text/javascript" src="ahorcado.js"></script>
+
+  <body class="cuerpo-index">
+    <header class="header">
+      <h1 class="titulo">Bienvenido al juego del Ahorcado</h1>
+    </header>
+
+    <main class="contenedor">
+      <section class="">
+        <div style="text-align:center; margin: 80px 0px;">
+          <a href="ahorcado.html" class="btn btn-iniciar" id="iniciar-juego">Iniciar juego</a>
+        </div>  
+        
+        </section>
+    </main>
+    
+    
   </body>
+
 </html>

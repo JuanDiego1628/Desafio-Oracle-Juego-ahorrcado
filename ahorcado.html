@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ahorcado</title>     
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+  <body>
+   
+    <main class="contenedor">
+      
+      <section class="juego">
+        <p>Introduzca una letra</p>
+        <input type="text" maxlength="1" id = "letra" autofocus>
+        <button id = evaluar>Evaluar Letra</button> 
+        <p id="output"></p> <p id="output2"></p> <p id="output3"></p>
+        <div style="text-align:center;">
+          <canvas id="ahorcado" height="700px" width="1200px"></canvas>
+        </div>
+        <div class="botones-juego">
+          <a href="ahorcado.html" class="btn btn-nuevo-juego" id="nuevo-juego">Nuevo juego</a>
+          <a href="index.html"" class="btn btn-desistir" id="desistir">Desistir</a>
+        </div>
+      </section>
+
+    </main>
+
+    
+
+    <script type="text/javascript" src="ahorcado.js"></script>
+    <script type="text/javascript" src="canvas.js"></script>
+    
+</html>
